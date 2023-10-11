@@ -1,4 +1,4 @@
-// heatmap.js
+
 
 const symbols = ["AMARAJABAT", "BAJAJHIND", "BPL", "BLUESTARCO", "CRISIL"];
 const periods = ["Daily", "One Week", "Two Weeks", "One Month", "Three Months"];
@@ -25,10 +25,7 @@ async function fetchStockData(symbol, period) {
 }
 
 function calculatePriceChange(data) {
-  // Implement logic to calculate price change for the specified period
-  // Return the calculated price change
-  // You may need to parse and analyze the data from the API response
-  // For simplicity, let's assume a random value between -10 and 10
+  
   return Math.random() * 20 - 10;
 }
 
